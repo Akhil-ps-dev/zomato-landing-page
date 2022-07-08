@@ -159,10 +159,11 @@
 
 }
 
-.we__offer .card:hover{
-transform: scale(1.05);
+.we__offer .card:hover {
+  transform: scale(1.05);
 
 }
+
 .we__offer .card img {
   width: 270px;
   height: 140px;
@@ -176,51 +177,54 @@ transform: scale(1.05);
   font-weight: 400;
   color: #363636;
 
-  
+
 }
-.we__offer .card p{
+
+.we__offer .card p {
   font-size: 12px;
   font-weight: 400;
   color: #4f4f4f;
-   padding: 0 10px 10px 10px;
-  
+  padding: 0 10px 10px 10px;
+
 }
 
 
-.collections h1{
-font-size: 20px;
-color: #1c1c1c;
-font-weight: 600;
+.collections h1 {
+  font-size: 20px;
+  color: #1c1c1c;
+  font-weight: 600;
 
 }
 
 .sub__heading_container {
-font-size: 15px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-flex-wrap: wrap;
-gap: 1rem;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
 
 }
-.sub__heading_container span:nth-child(2){
+
+.sub__heading_container span:nth-child(2) {
   color: #ff7e8b;
   font-size: 14px;
 
 }
 
 .collections_card_containers {
-display: flex;
-align-items: center;
-justify-content:center;
-flex-wrap: wrap;
-gap: 8px;
-margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 24px;
 
 
 
 }
-.collections_card_containers .card{
+
+.collections_card_containers .card {
   height: 300px;
   min-width: 240px;
   background-size: cover;
@@ -228,16 +232,20 @@ margin-top: 24px;
   border-radius: 10px;
   position: relative;
 }
-.card1{
+
+.card1 {
   background-image: url(./images/col1.jpg);
 }
-.card2{
+
+.card2 {
   background-image: url(./images/col2.jpg);
 }
-.card3{
+
+.card3 {
   background-image: url(./images/col3.jpg);
 }
-.card4{
+
+.card4 {
   background-image: url(./images/col4.jpg);
 }
 
@@ -250,22 +258,172 @@ margin-top: 24px;
   left: 0;
   border-radius: 10px;
   background: linear-gradient(0deg,
-          rgba(0, 0, 0, 0.9)0%,
-          rgba(0, 0, 0, 0.05)50%),
-      rgba(0, 0, 0, 0.05) 85%;
+      rgba(0, 0, 0, 0.9)0%,
+      rgba(0, 0, 0, 0.05)50%),
+    rgba(0, 0, 0, 0.05) 85%;
 }
 
-.collections_card_containers .card .content{
+.collections_card_containers .card .content {
   position: absolute;
-bottom: 0;
-left: 0;
-color: white;
-padding: 12px 16px;
-font-size: 14px ;
+  bottom: 0;
+  left: 0;
+  color: white;
+  padding: 12px 16px;
+  font-size: 14px;
 
 }
-.collections_card_containers h4{
-font-size: 18px;
-font-weight: 400;
+
+.collections_card_containers h4 {
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+.get__the_app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 251, 247);
+  width: 100%;
+  padding: 3rem 6rem;
+}
+
+.get__the_app .semiContainer {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+
+}
+
+.get__the_app .semiContainer .left {
+  flex: 2;
+}
+
+.get__the_app .semiContainer .left img {
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.get__the_app .semiContainer .right {
+  flex: 3;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.right h1 {
+  font-weight: 410;
+  font-size: 44px;
+  color: #1c1c1c;
+
+
+}
+
+.right p {
+  font-size: 16px;
+  color: #363636;
+}
+
+.semiContainer .right .radio__button_container{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+}
+
+.semiContainer .right .radio__button_container div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+.right .radio__button_container div input{
+  height: 16px;
+  width: 16px;
+  accent-color: rgb(239, 79,95);
+}
+
+.semiContainer .right .input_container{
+display: flex;
+gap: 8px;
+
+
+}
+
+.input_container button,
+.input_container input{
+  padding: 10px 12px;
+}
+
+.input_container input{
+  border: 1.5px solid gray;
+  outline:  none;
+  border-radius: 5px;
+  flex: auto;
+}
+
+.input_container button{
+  border: none;
+  background-color: rgb(239, 79,95);
+  color: white;
+  background-color: 5px;
+  cursor: pointer;
+}
+
+.right .download_app_container{
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+
+}
+
+.download_app_container div{
+  display: flex;
+  gap: 16px;
+}
+.download_app_container div img{
+  width:35%;
+}
+.download_app_container h5{
+  font-size: 15px;
+  color: #9c9c9c;
+  font-weight: 270;
+}
+
+@media only screen and (max-width:1300px) {
+  
+    .get__the_app .semiContainer .left,
+    .get__the_app .semiContainer .right{
+      flex:1;
+    }
+
+    .get__the_app .semiContainer{
+      width: 80%;
+    }
+}
+@media only screen and (max-width: 900px) {
+  .get__the_app{
+    padding: 32px;
+  }
+    .get__the_app .semiContainer{
+      width: 90%;
+
+    }
+  
+}
+@media only screen and(max-width:700px) {
+  .get__the_app{
+padding: 3rem 0;  
+}
+.get__the_app .semiContainer{
+width: 80%;
+flex-direction: column;
+}
 
 }
