@@ -344,6 +344,20 @@
       padding-left: 20px;
   }
 }
+@media only screen and (max-width: 450px) {
+  .location__card_container {
+      grid-template-columns: 1fr;
+  }
+
+  .location_card {
+      width: 200px;
+      justify-content: center;
+      padding-left: 20px;
+  }
+  .location__card_container i{
+padding: 10px;
+  }
+}
 
 /* !location ends */
 
