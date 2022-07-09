@@ -374,6 +374,9 @@ justify-content:center;
 
 /* Get the app starts */
 
+.semiContainer button{
+border-radius: 5px;
+}
 .get__the_app {
   display: flex;
   align-items: center;
