@@ -272,14 +272,14 @@
 
 /* !location strats */
 .locations h1 {
+display: flex;
+/* align-items: center; */
+justify-content: center;
   font-weight: 300;
   font-size: 36px;
   color: rgb(56, 56, 56);
 }
-.locations h1 strong {
-  font-size: 36px;
-  font-weight: 500;
-}
+
 
 .location__card_container {
   display: grid;
@@ -304,6 +304,7 @@
 }
 
 /* .location_content {} */
+
 
 .location_content h5 {
   font-size: 20px;
