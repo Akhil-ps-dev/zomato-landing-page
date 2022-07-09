@@ -323,7 +323,9 @@ justify-content: center;
   .location__card_container {
     grid-template-columns: 1fr 1fr;
   }
-
+  .location__card_container i {
+    padding: 10px;
+  }
   .location_card {
     width: 300px;
     justify-content: center;
@@ -340,6 +342,9 @@ justify-content: center;
     width: 300px;
     justify-content: center;
     padding-left: 20px;
+  }
+  .location__card_container i {
+    padding: 10px;
   }
 }
 @media only screen and (max-width: 450px) {
