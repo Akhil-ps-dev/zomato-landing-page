@@ -4,7 +4,7 @@ started 2022 july (8 - 9)
 stack used html and css
 <h1 align="center" id="title">Zomato Landing page</h1>
 
-<p align="center"><img src="" alt="project-image"></p>
+
 
 <p id="description">It's a zomato landing page built with html and CSS.</p>
 
